@@ -1,0 +1,37 @@
+/* 
+ ! Selecteurs:
+    * Selectionner 2 balises
+        * balise1, balise2: {}
+    * Selectionner balise dans une autre balise
+        * balise1 balise2: {}
+    * Selectionner une balise qui suit une autre
+        * balise1 + balise2: {}
+    * Selectionner un attribut "id"
+        * #nomId : {}
+    * Selectionner un attribut "class"
+        * .nomClass : {}
+*/
+
+p{
+    color: green;
+}
+
+p, h1{
+    background-color: limegreen;
+}
+
+ol li{
+    color: blueviolet;
+}
+
+h1 + p{
+    font-size: 50px;
+}
+
+#titre1{
+    text-align: center;
+}
+
+.chapitre{
+    text-align: right;
+}
