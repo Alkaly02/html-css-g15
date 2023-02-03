@@ -1,0 +1,23 @@
+Nom: Permutation
+Role: Ecrire un algorithme qui permet d’effectuer une permutation circulaire des valeurs entières de trois
+variables x, y, z (c'est-à-dire la valeur de y dans x, la valeur de z dans y et la valeur de x dans z).
+Entrée: 
+Sortie:
+Entrée/Sortie: x, y, z: entier
+Déclaration: t: entier
+
+Début
+    Ecrire("Donner la valeur de x: ")
+    lire(x)
+    Ecrire("Donner la valeur de y: ")
+    lire(y)
+    Ecrire("Donner la valeur de z: ")
+    lire(z)
+
+    t <-- x
+    x <-- y
+    y <-- z
+    z <-- t
+
+    Ecrire("Apres echange, x = ", x," y= ", y," z = ", z)
+Fin
